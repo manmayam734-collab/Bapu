@@ -1,0 +1,92 @@
+<html>
+  <head>
+    <style>
+      *{
+        margin:0px;
+        padding:0px;
+        box-sizing:border-box;
+        font-family:popins;
+      }
+      body{
+        height:100%;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:linear-gradient(45deg,#0a0a0a,#3a4452);
+      }
+      .calc{
+        border:1px solid #717377;
+        paddin:30px;
+        padding-left:5px;
+        padding-top:5px;
+        border-radius:16px;
+        height:270px;
+        width:200px;
+        box-shadow:0px 3px 15px rgba(113,115,119,0.5) ;
+        
+      }
+      input{
+        width:90%;
+        border:none;
+        background:none;
+        height:20px;
+        padding:20px;
+        text-align:right;
+      }
+      button{
+        width:30px;
+        height:20px;
+        border:1px solid transparent;
+        margin:5px;
+        margin-top:15px;
+        font-size:7px;
+        border-radius:100%;
+        box-shadow:.8px .8px 15px rgba(255,255,255,0.3);
+        background:none;
+        color:white;
+      }
+      .ww{
+        background:#fb7c14;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <script src="Hh.js"></script>
+    <div class="calc">
+      <input placeholder="0">
+      <div class="button">
+        <button class="row1">Ac</button>
+        <button class="row1">Del</button>
+        <button class="row1">%</button>
+        <button class="row1">/</button>
+      </div>
+      <div class="button">
+        <button class="row2">7</button>
+        <button class="row2">8</button>
+        <button class="row2">9</button>
+        <button class="row2">*</button>
+      </div>
+      <div class="button">
+        <button class="row3">4</button>
+        <button class="row3">5</button>
+        <button class="row3">6</button>
+        <button class="row3">-</button>
+      </div>
+      <div class="button">
+        <button class="row4">1</button>
+        <button class="row4">2</button>
+        <button class="row4">3</button>
+        <button class="row4">+</button>
+        
+      </div>
+      <div class="button">
+        <button class="row2">00</button>
+        <button class="row2">0</button>
+        <button class="row2">.</button>
+        <button class="ww">=</button>
+      </div>
+    </div>
+  </body>
+</html>
